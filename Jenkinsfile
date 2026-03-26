@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vokhoadev/jenkins-demo.git'
+                git 'https://github.com/PhamMinhHanh/TH3_jenkins.git'
             }
         }
         stage('Install') {
