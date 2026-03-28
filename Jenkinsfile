@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/PhamMinhHanh/TH3_jenkins.git'
+                git branch: 'main', url: 'https://github.com/PhamMinhHanh/TH3_jenkins.git'
             }
         }
         stage('Install') {
